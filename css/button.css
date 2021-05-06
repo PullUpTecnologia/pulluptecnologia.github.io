@@ -1,0 +1,75 @@
+.btn {
+  /* Spacing Attributes */
+  margin: 0 0.25rem;
+  padding: 0.5rem 1rem;
+
+  /* Border Attributes */
+  border: 1px solid var(--light-color);
+  border-radius: var(--rounded-md);
+
+  /* Cursor Attributes*/
+  cursor: pointer;
+
+  /* Font Attributes */
+  font-size: var(--text-small);
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  line-height: 1.25rem;
+  text-align: center;
+  text-decoration: none;
+
+  background-color: white;
+  color: var(--success-color);
+
+  /* Transitions */
+  transition: all 150ms ease-in-out;
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 2px white, 0 0 0 4px var(--light-success-color);
+}
+
+/* ================================================================= */
+/* Sucess Button Styles Rules */
+.btn-success {
+  background-color: var(--success-color);
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: var(--dark-success-color);
+}
+
+.btn-success:focus {
+  box-shadow: 0 0 0 3px white, 0 0 0 6px var(--light-success-color);
+}
+
+/* ================================================================= */
+/* Primary Button Styles Rules */
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--dark-primary-color);
+}
+
+.btn-primary:focus {
+  box-shadow: 0 0 0 3px white, 0 0 0 6px var(--light-primary-color);
+}
+
+/* ================================================================= */
+/* Danger Button Styles Rules */
+.btn-danger {
+  background-color: var(--danger-color);
+  color: white;
+}
+
+.btn-danger:hover {
+  background-color: var(--dark-danger-color);
+}
+
+.btn-danger:focus {
+  box-shadow: 0 0 0 3px white, 0 0 0 6px var(--light-danger-color);
+}
