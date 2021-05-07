@@ -1,1 +1,31 @@
-.tools-list {}
+.tools-list {
+    padding: 0;
+    margin: 0;
+}
+
+.tool-list-item {
+    list-style: none;
+}
+
+.tools-article {
+    padding: 1rem;
+    border: 1px solid var(--light-color);
+    border-radius: var(--rounded-md);
+    background-color: white;
+}
+
+.tooling-brand {
+    color: var(--text-color);
+}
+
+.vscode-color {
+    color: var(--primary-color) !important;
+}
+
+.eslint-color {
+    color: purple !important;
+}
+
+.prettier-color {
+    color: var(--warning-color) !important;
+}
