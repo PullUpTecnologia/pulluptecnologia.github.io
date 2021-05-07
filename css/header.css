@@ -20,6 +20,24 @@ header {
   letter-spacing: 0.05rem;
 }
 
+.brand-nodejs {
+  position: relative;
+  letter-spacing: 0.05rem;
+}
+
+.brand-nodejs::before {
+  /* Position Attributes */
+  position: absolute;
+  /* Spacing Attributes */
+  content: "";
+  margin: -0.15rem 0;
+  padding: 0.15rem 2.5rem;
+  /* Border Attributes */
+  border-radius: 0.1rem;
+  /* Color Attributes */
+  background-color: var(--nodejs-color);
+}
+
 .brand::before {
   /* Position Attributes */
   position: absolute;

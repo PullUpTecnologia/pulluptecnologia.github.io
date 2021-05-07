@@ -16,3 +16,15 @@
   border-radius: var(--rounded-md);
   /* box-shadow: var(--shadow-lg); */
 }
+
+.main-content {
+  padding: 1rem;
+}
+
+.about-article {
+  padding: .5rem;
+  background-color: white;
+  border: 1px solid var(--light-color);
+  border-radius: .375rem;
+  color: var(--text-light);
+}

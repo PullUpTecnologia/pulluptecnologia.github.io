@@ -59,6 +59,22 @@
 }
 
 /* Spacing utils Classes */
+.padding-0 {
+  padding: 0;
+}
+
+.padding {
+  padding: .25rem;
+}
+
+.padding-y {
+  padding: .25rem 0;
+}
+
+.padding-y-md {
+  padding: .75rem 0;
+}
+
 .margin-0 {
   margin: 0;
 }
@@ -88,6 +104,19 @@
 }
 
 /* Sizing Utils classes */
+
+.height-sm {
+  height: .5rem;
+}
+
+.height-md {
+  height: 1rem;
+}
+
+.height-lg {
+  height: 2rem;
+}
+
 .full-width {
   width: 100%;
 }
@@ -168,4 +197,11 @@
 
 .flex-center {
   justify-content: center;
+}
+
+
+/* Color properties */
+
+.opacity-50 {
+  opacity: .5;
 }
