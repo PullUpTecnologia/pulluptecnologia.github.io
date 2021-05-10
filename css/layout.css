@@ -21,10 +21,19 @@
   padding: 1rem;
 }
 
+/* DEPRECATED */
 .about-article {
-  padding: .5rem;
+  padding: 0.5rem;
   background-color: white;
   border: 1px solid var(--light-color);
-  border-radius: .375rem;
+  border-radius: 0.375rem;
+  color: var(--text-light);
+}
+
+article {
+  padding: 0.5rem;
+  background-color: white;
+  border: 1px solid var(--light-color);
+  border-radius: 0.375rem;
   color: var(--text-light);
 }

@@ -64,15 +64,15 @@
 }
 
 .padding {
-  padding: .25rem;
+  padding: 0.25rem;
 }
 
 .padding-y {
-  padding: .25rem 0;
+  padding: 0.25rem 0;
 }
 
 .padding-y-md {
-  padding: .75rem 0;
+  padding: 0.75rem 0;
 }
 
 .margin-0 {
@@ -106,7 +106,7 @@
 /* Sizing Utils classes */
 
 .height-sm {
-  height: .5rem;
+  height: 0.5rem;
 }
 
 .height-md {
@@ -199,9 +199,8 @@
   justify-content: center;
 }
 
-
 /* Color properties */
 
 .opacity-50 {
-  opacity: .5;
+  opacity: 0.5;
 }
