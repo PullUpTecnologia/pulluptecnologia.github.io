@@ -1,0 +1,45 @@
+footer {
+  background-color: white;
+  justify-self: end;
+  border-top: 1px solid var(--light-color);
+}
+
+footer > nav {
+  display: flex;
+}
+
+footer > nav > ul {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer > nav > ul > li {
+  padding: 1rem;
+  list-style-type: none;
+  font-size: small;
+}
+
+.nav-item {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav-item > svg {
+  height: 1.5rem;
+}
+
+.nav-item:visited {
+  color: var(--text-color);
+}
+
+.active-menu-item {
+  color: var(--success-color) !important;
+}

@@ -1,0 +1,206 @@
+/* Position utils */
+.fixed {
+  position: fixed;
+}
+
+/* Overflow utils */
+.overflow {
+  overflow: auto;
+}
+
+/* Border Radius Utils classes */
+.rounded {
+  border-radius: var(--rounded);
+}
+
+.rounded-md {
+  border-radius: var(--rounded-md);
+}
+
+.rounded-lg {
+  border-radius: var(--rounded-lg);
+}
+
+.rounded-right {
+  border-top-right-radius: var(--rounded);
+  border-bottom-right-radius: var(--rounded);
+}
+.rounded-left {
+  border-top-left-radius: var(--rounded);
+  border-top-left-radius: var(--rounded);
+}
+
+.rounded-top {
+  border-top-right-radius: var(--rounded);
+  border-top-left-radius: var(--rounded);
+}
+
+.rounded-md-top {
+  border-top-right-radius: var(--rounded-md);
+  border-top-left-radius: var(--rounded-md);
+}
+
+.rounded-lg-top {
+  border-top-right-radius: var(--rounded-lg);
+  border-top-left-radius: var(--rounded-lg);
+}
+
+/* Shadow Utils classes */
+.shadow {
+  box-shadow: var(--shadow);
+}
+
+.shadow-md {
+  box-shadow: var(--shadow-md);
+}
+
+.shadow-lg {
+  box-shadow: var(--shadow-lg);
+}
+
+/* Spacing utils Classes */
+.padding-0 {
+  padding: 0;
+}
+
+.padding {
+  padding: 0.25rem;
+}
+
+.padding-y {
+  padding: 0.25rem 0;
+}
+
+.padding-y-md {
+  padding: 0.75rem 0;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.margin-top {
+  margin-top: 0.25rem;
+}
+
+.margin-top-2 {
+  margin-top: 0.5rem;
+}
+
+.margin-top-3 {
+  margin-top: 0.75rem;
+}
+
+.margin-top-4 {
+  margin-top: 1rem;
+}
+
+.margin-bottom {
+  margin-bottom: 0.25rem;
+}
+
+.margin-bottom-md {
+  margin-bottom: 0.5rem;
+}
+
+/* Sizing Utils classes */
+
+.height-sm {
+  height: 0.5rem;
+}
+
+.height-md {
+  height: 1rem;
+}
+
+.height-lg {
+  height: 2rem;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.three-quarters-width {
+  width: 75%;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.one-quarter-width {
+  width: 25%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+/* Text utils classes*/
+.text-light {
+  color: var(--text-light);
+}
+
+.text-sm {
+  font-size: var(--text-small);
+}
+
+/* Grid Row Gap classes */
+.row-sm {
+  row-gap: var(--row);
+}
+
+.row-md {
+  row-gap: var(--row-md);
+}
+
+.row-lg {
+  row-gap: var(--row-lg);
+}
+
+/* Grid Column Gap Properties */
+
+.col-sm {
+  row-gap: var(--col);
+}
+
+.col-md {
+  row-gap: var(--col-md);
+}
+
+.col-lg {
+  row-gap: var(--col-lg);
+}
+
+/* Flex Utils */
+
+.flex {
+  display: flex;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-start {
+  justify-content: flex-start;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+/* Color properties */
+
+.opacity-50 {
+  opacity: 0.5;
+}

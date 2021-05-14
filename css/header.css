@@ -1,0 +1,110 @@
+header {
+  position: sticky;
+  /** spacing Attributes */
+  padding: 1.5rem 1rem;
+
+  /** Display Attributes */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /** Color Attributes */
+  background-color: transparent;
+
+  /** Shadow Attributes */
+  /* box-shadow: 0.05rem 0.1rem 0.5rem var(--light-shadow); */
+}
+
+.brand {
+  position: relative;
+  letter-spacing: 0.05rem;
+}
+
+.brand-nodejs {
+  position: relative;
+  letter-spacing: 0.05rem;
+}
+
+.brand-nodejs::before {
+  /* Position Attributes */
+  position: absolute;
+  /* Spacing Attributes */
+  content: "";
+  margin: -0.15rem 0;
+  padding: 0.15rem 2.5rem;
+  /* Border Attributes */
+  border-radius: 0.1rem;
+  /* Color Attributes */
+  background-color: var(--nodejs-color);
+}
+
+.brand::before {
+  /* Position Attributes */
+  position: absolute;
+  /* Spacing Attributes */
+  content: "";
+  margin: -0.15rem 0;
+  padding: 0.15rem 2.5rem;
+  /* Border Attributes */
+  border-radius: 0.1rem;
+  /* Color Attributes */
+  background-color: var(--warning-color);
+}
+
+.avatar {
+  display: none;
+}
+
+.notification-icon {
+  color: var(--warning-color);
+  height: 1.75rem;
+  width: 1.75rem;
+  border-radius: var(--rounded-full);
+  transition: all 150ms ease-in-out;
+}
+
+.notification-icon:focus {
+  box-shadow: 0 0 0 3px white, 0 0 0 6px var(--warning-color);
+}
+
+nav {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .avatar {
+    /* Display Attributes */
+    display: inline-block;
+
+    /* Size Attributes */
+    height: 3rem;
+    width: 3rem;
+
+    /* Spacing Atributtes */
+    margin: 0 1rem;
+    object-fit: cover;
+
+    /* Border Attributes */
+    border-radius: 50%;
+
+    opacity: 0.75;
+    cursor: pointer;
+    transition: all 150ms ease-in-out;
+  }
+
+  .avatar:focus {
+    box-shadow: 0 0 0 3px white, 0 0 0 6px var(--light-primary-color);
+  }
+
+  .notification-icon {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  nav {
+    /** Display Attributes */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}

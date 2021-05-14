@@ -1,0 +1,116 @@
+.form-label {
+  display: block;
+  max-width: 75%;
+  margin: 0.25rem 0;
+  font-size: var(--text-small);
+}
+
+.form-label[data-state='valid'] {
+  color: var(--success-color);
+}
+
+.form-label[data-state='invalid'] {
+  color: var(--danger-color);
+}
+
+.form-input {
+  display: block;
+  /** Spacing Attributes */
+  padding: 0.5rem;
+  margin: 0 0.05rem;
+
+  /** Border Atributes */
+  border: 0;
+  border-radius: 0.25rem;
+
+  /* Color properties */
+  background-color: white;
+
+  /** Font Attributes */
+  color: var(--dark-color);
+  letter-spacing: 0.05rem;
+
+  /** Shadow Attributes */
+  box-shadow: 0 0 0 1.5px var(--light-shadow);
+
+  /** Transitions Attributes */
+  transition: all 150ms ease-in-out;
+}
+
+.form-input:focus {
+  /** Border Atributes */
+  border: 0;
+  outline: none;
+
+  /** Shadow Attributes */
+  box-shadow: 0 0 0 2px var(--background), 0 0 0 4px var(--light-primary-color);
+}
+
+.form-input[data-state='valid'] {
+  /** Shadow Attributes */
+  box-shadow: 0 0 0 2px var(--background), 0 0 0 4px var(--success-color);
+}
+
+.form-input[data-state='invalid'] {
+  /** Shadow Attributes */
+  box-shadow: 0 0 0 2px var(--background), 0 0 0 4px var(--danger-color);
+}
+
+.search-field {
+  display: none;
+}
+
+.search-field-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-icon > svg {
+  height: 1.75rem;
+  /* height: calc(1.5rem - 1px); */
+  margin-top: calc(0.5rem - 1px);
+  padding: 0.5rem 0.5rem;
+  border-top-left-radius: var(--rounded);
+  border-bottom-left-radius: var(--rounded);
+  background-color: var(--background);
+  color: var(--text-light);
+}
+
+@media (min-width: 768px) {
+  .search-field {
+    /* Display Attributes */
+    display: block;
+
+    /* Spacing Attributes*/
+    padding: 0.75rem 0.5rem;
+
+    /* Sizing Attributes */
+    width: 75%;
+
+    /* Border Attributes*/
+    border: 0;
+
+    /* Font Attributes */
+    font-size: larger;
+
+    /* Color Attributes */
+    color: var(--text-light);
+    background-color: var(--background);
+    /* box-shadow: 0 0 0 1.5px var(--light-shadow); */
+  }
+
+  .search-field::placeholder {
+    color: var(--text-light);
+  }
+
+  .search-field:focus {
+    /** Border Atributes */
+    border: 0;
+    outline: none;
+
+    /** Shadow Attributes */
+    box-shadow: 0 0 0 2px var(--background),
+      0 0 0 4px var(--light-primary-color);
+  }
+}
